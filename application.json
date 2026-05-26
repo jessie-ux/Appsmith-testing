@@ -32,6 +32,10 @@
     {
       "id": "Team_members",
       "isDefault": false
+    },
+    {
+      "id": "Page1",
+      "isDefault": false
     }
   ],
   "unpublishedApplicationDetail": {
