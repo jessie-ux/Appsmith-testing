@@ -1,0 +1,1 @@
+SELECT distinct name_en as team FROM department_team 

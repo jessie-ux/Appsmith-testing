@@ -1,0 +1,5 @@
+SELECT f_name, l_name FROM person p
+join department_team_member dtm on dtm.person_id = p.person_id
+join department_team dt on dt.team_id = dtm.team_id
+where dt.name_en = {{appsmith.store.selectedTeam}}
+order by p.l_name

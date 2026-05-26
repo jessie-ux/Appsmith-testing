@@ -1,0 +1,3 @@
+SELECT dtm.person_id, f_name, l_name, dt.department_id, dt.name_en as team_name FROM public.person p
+join public.department_team_member dtm on p.person_id = dtm.person_id
+join public.department_team dt on dt.team_id = dtm.team_id;
